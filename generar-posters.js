@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'videos/3.mp4': 8,
         'videos/4.mp4': 1,
         'videos/5.mp4': 4,
-        'videos/6.mp4': 6
+        'videos/6.mp4': 9
     };
 
     const videoCards = document.querySelectorAll('.lf-videos-card');

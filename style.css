@@ -819,8 +819,12 @@ footer .logo {
       justify-content: center;
       transition: transform 0.4s ease;
     }
-    .lf-videos-card:hover {
-      transform: translateY(-8px) scale(1.02);
+
+    /*Hover de cards videos, solo en pc*/
+    @media (min-width: 901px) {
+        .lf-videos-card:hover {
+            transform: translateY(-8px) scale(1.02);
+        }
     }
 
     .lf-videos-card video {
