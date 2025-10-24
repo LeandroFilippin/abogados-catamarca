@@ -3,12 +3,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Definición de los tiempos de inicio para la generación de posters.
     const POSTER_TIMES = {
-        'videos/1.mp4': 16,
-        'videos/2.mp4': 5.5,
-        'videos/3.mp4': 8,
-        'videos/4.mp4': 1,
-        'videos/5.mp4': 4,
-        'videos/6.mp4': 9
+        'videos/1.mp4': 14,
+        'videos/2.mp4': 43,
+        'videos/3.mp4': 29,
+        'videos/4.mp4': 1.5,
+        'videos/5.mp4': 20,
+        'videos/6.mp4': 27
     };
 
     const videoCards = document.querySelectorAll('.lf-videos-card');

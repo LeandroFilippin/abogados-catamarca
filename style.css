@@ -834,6 +834,9 @@ footer .logo {
         grid-row: 1 / 3;
         height: 730px;
     }
+    .destacar-video .lf-videos-content {
+        padding: 6rem 1rem;
+    }
 
     .lf-videos-card video {
       position: absolute;
@@ -875,18 +878,16 @@ footer .logo {
       transform: translate(-50%, -50%);
       width: 70px; height: 70px;
       border-radius: 50%;
-      background: rgba(255,255,255,0.15);
-      border: 2px solid rgba(255,255,255,0.8);
+      background: #459ea6;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 2rem;
       color: white;
       transition: all 0.4s ease;
-      backdrop-filter: blur(4px);
     }
     .lf-videos-card:hover .lf-videos-play-btn {
-      background: rgba(255,255,255,0.25);
+      background: #367f84;
       transform: translate(-50%, -50%) scale(1.1);
     }
 
@@ -976,7 +977,7 @@ footer .logo {
     }
 
     .lf-videos-play-btn {
-        top: 20%;
+        top: 25%;
         width: 55px;
         height: 55px;
         font-size: 1.5rem;
@@ -999,6 +1000,9 @@ footer .logo {
     .destacar-video {
         grid-row: 1;
     }
+    .destacar-video .lf-videos-content {
+        padding: 0.5rem;
+    }
 
     /* QSomos*/
     .qsomos-layout {
@@ -1018,6 +1022,9 @@ footer .logo {
         height: 550px;
         flex: auto;
     }
+    .qsomos-layout .lf-videos-play-btn {
+        top: 50%;
+    }
 
     /* Equipo */
     .equipo {
@@ -1036,7 +1043,7 @@ footer .logo {
 
     /*Videos y QSomos */
     .videos, .qsomos {
-        padding: 50px 20px;
+        padding: 50px 0px;
     }
 }
 
