@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'videos/2.mp4': 43,
         'videos/3.mp4': 29,
         'videos/4.mp4': 1.5,
-        'videos/5.mp4': 20,
+        'videos/5.mp4': 21,
         'videos/6.mp4': 27
     };
 
