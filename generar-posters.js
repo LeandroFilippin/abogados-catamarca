@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Definición de los tiempos de inicio para la generación de posters.
     const POSTER_TIMES = {
-        'videos/1.mp4': 14,
+        'videos/1.mp4': 15,
         'videos/2.mp4': 43,
         'videos/3.mp4': 29,
         'videos/4.mp4': 1.5,
